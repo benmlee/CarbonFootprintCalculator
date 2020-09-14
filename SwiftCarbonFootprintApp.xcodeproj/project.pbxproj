@@ -1,0 +1,643 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		723923722508764C00D43CA8 /* welcome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723923632508764C00D43CA8 /* welcome.swift */; };
+		723923732508764C00D43CA8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 723923642508764C00D43CA8 /* GoogleService-Info.plist */; };
+		723923742508764C00D43CA8 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723923652508764C00D43CA8 /* Helpers.swift */; };
+		723923772508764C00D43CA8 /* ColorScheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7239236B2508764C00D43CA8 /* ColorScheme.swift */; };
+		723923782508764C00D43CA8 /* UserSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7239236C2508764C00D43CA8 /* UserSettings.swift */; };
+		7239237A2508764C00D43CA8 /* EmissionsOverview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7239236E2508764C00D43CA8 /* EmissionsOverview.swift */; };
+		7239237B2508764C00D43CA8 /* HomeEnergy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7239236F2508764C00D43CA8 /* HomeEnergy.swift */; };
+		7239237C2508764C00D43CA8 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 723923702508764C00D43CA8 /* Model.xcdatamodeld */; };
+		7279E0342478374B00EABEFE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7279E0332478374B00EABEFE /* AppDelegate.swift */; };
+		7279E0362478374B00EABEFE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7279E0352478374B00EABEFE /* SceneDelegate.swift */; };
+		7279E03B2478374B00EABEFE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7279E0392478374B00EABEFE /* Main.storyboard */; };
+		7279E03D2478374D00EABEFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7279E03C2478374D00EABEFE /* Assets.xcassets */; };
+		7279E0402478374D00EABEFE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7279E03E2478374D00EABEFE /* LaunchScreen.storyboard */; };
+		7279E04B2478374E00EABEFE /* SwiftCarbonFootprintAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7279E04A2478374E00EABEFE /* SwiftCarbonFootprintAppTests.swift */; };
+		7279E0562479833900EABEFE /* Waste.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7279E0552479833900EABEFE /* Waste.swift */; };
+		7279E058247AC29B00EABEFE /* HouseholdVehicles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7279E057247AC29B00EABEFE /* HouseholdVehicles.swift */; };
+		8D14A8060DF06162E31361CB /* Pods_SwiftCarbonFootprintAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28982C537C46A0729B61407C /* Pods_SwiftCarbonFootprintAppTests.framework */; };
+		95C602A2F44C1B220A31D8FC /* Pods_SwiftCarbonFootprintApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6F9507F31B23F86B6764EBA /* Pods_SwiftCarbonFootprintApp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7279E0472478374E00EABEFE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7279E0282478374B00EABEFE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7279E02F2478374B00EABEFE;
+			remoteInfo = SwiftCarbonFootprintApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B5235055BBCB8F57782A5AF /* Pods-SwiftCarbonFootprintAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftCarbonFootprintAppTests.release.xcconfig"; path = "Target Support Files/Pods-SwiftCarbonFootprintAppTests/Pods-SwiftCarbonFootprintAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		28982C537C46A0729B61407C /* Pods_SwiftCarbonFootprintAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftCarbonFootprintAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		53B6139EE77BCEEC8F8AB0E8 /* Pods-SwiftCarbonFootprintApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftCarbonFootprintApp.release.xcconfig"; path = "Target Support Files/Pods-SwiftCarbonFootprintApp/Pods-SwiftCarbonFootprintApp.release.xcconfig"; sourceTree = "<group>"; };
+		723923632508764C00D43CA8 /* welcome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = welcome.swift; sourceTree = "<group>"; };
+		723923642508764C00D43CA8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		723923652508764C00D43CA8 /* Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		7239236B2508764C00D43CA8 /* ColorScheme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorScheme.swift; sourceTree = "<group>"; };
+		7239236C2508764C00D43CA8 /* UserSettings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserSettings.swift; sourceTree = "<group>"; };
+		7239236E2508764C00D43CA8 /* EmissionsOverview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmissionsOverview.swift; sourceTree = "<group>"; };
+		7239236F2508764C00D43CA8 /* HomeEnergy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeEnergy.swift; sourceTree = "<group>"; };
+		723923712508764C00D43CA8 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		7279E0302478374B00EABEFE /* SwiftCarbonFootprintApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftCarbonFootprintApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7279E0332478374B00EABEFE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7279E0352478374B00EABEFE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7279E0372478374B00EABEFE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7279E03A2478374B00EABEFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7279E03C2478374D00EABEFE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7279E03F2478374D00EABEFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7279E0412478374D00EABEFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7279E0462478374E00EABEFE /* SwiftCarbonFootprintAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftCarbonFootprintAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7279E04A2478374E00EABEFE /* SwiftCarbonFootprintAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftCarbonFootprintAppTests.swift; sourceTree = "<group>"; };
+		7279E04C2478374E00EABEFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7279E0552479833900EABEFE /* Waste.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Waste.swift; sourceTree = "<group>"; };
+		7279E057247AC29B00EABEFE /* HouseholdVehicles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseholdVehicles.swift; sourceTree = "<group>"; };
+		B5BF1B00720DE2D39DE7B8A6 /* Pods-SwiftCarbonFootprintAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftCarbonFootprintAppTests.debug.xcconfig"; path = "Target Support Files/Pods-SwiftCarbonFootprintAppTests/Pods-SwiftCarbonFootprintAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DA5F8FA7A64D044B1213882A /* Pods-SwiftCarbonFootprintApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftCarbonFootprintApp.debug.xcconfig"; path = "Target Support Files/Pods-SwiftCarbonFootprintApp/Pods-SwiftCarbonFootprintApp.debug.xcconfig"; sourceTree = "<group>"; };
+		F6F9507F31B23F86B6764EBA /* Pods_SwiftCarbonFootprintApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftCarbonFootprintApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7279E02D2478374B00EABEFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95C602A2F44C1B220A31D8FC /* Pods_SwiftCarbonFootprintApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7279E0432478374E00EABEFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D14A8060DF06162E31361CB /* Pods_SwiftCarbonFootprintAppTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6350745094D8D9A10CE8CF83 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DA5F8FA7A64D044B1213882A /* Pods-SwiftCarbonFootprintApp.debug.xcconfig */,
+				53B6139EE77BCEEC8F8AB0E8 /* Pods-SwiftCarbonFootprintApp.release.xcconfig */,
+				B5BF1B00720DE2D39DE7B8A6 /* Pods-SwiftCarbonFootprintAppTests.debug.xcconfig */,
+				0B5235055BBCB8F57782A5AF /* Pods-SwiftCarbonFootprintAppTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7279E0272478374B00EABEFE = {
+			isa = PBXGroup;
+			children = (
+				7279E0322478374B00EABEFE /* SwiftCarbonFootprintApp */,
+				7279E0492478374E00EABEFE /* SwiftCarbonFootprintAppTests */,
+				7279E0312478374B00EABEFE /* Products */,
+				6350745094D8D9A10CE8CF83 /* Pods */,
+				AABDC46057A12C58CE69B6C0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7279E0312478374B00EABEFE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7279E0302478374B00EABEFE /* SwiftCarbonFootprintApp.app */,
+				7279E0462478374E00EABEFE /* SwiftCarbonFootprintAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7279E0322478374B00EABEFE /* SwiftCarbonFootprintApp */ = {
+			isa = PBXGroup;
+			children = (
+				7239236B2508764C00D43CA8 /* ColorScheme.swift */,
+				7239236E2508764C00D43CA8 /* EmissionsOverview.swift */,
+				723923642508764C00D43CA8 /* GoogleService-Info.plist */,
+				723923652508764C00D43CA8 /* Helpers.swift */,
+				7239236F2508764C00D43CA8 /* HomeEnergy.swift */,
+				723923702508764C00D43CA8 /* Model.xcdatamodeld */,
+				7239236C2508764C00D43CA8 /* UserSettings.swift */,
+				723923632508764C00D43CA8 /* welcome.swift */,
+				7279E0332478374B00EABEFE /* AppDelegate.swift */,
+				7279E0352478374B00EABEFE /* SceneDelegate.swift */,
+				7279E0372478374B00EABEFE /* ViewController.swift */,
+				7279E0392478374B00EABEFE /* Main.storyboard */,
+				7279E057247AC29B00EABEFE /* HouseholdVehicles.swift */,
+				7279E0552479833900EABEFE /* Waste.swift */,
+				7279E03C2478374D00EABEFE /* Assets.xcassets */,
+				7279E03E2478374D00EABEFE /* LaunchScreen.storyboard */,
+				7279E0412478374D00EABEFE /* Info.plist */,
+			);
+			path = SwiftCarbonFootprintApp;
+			sourceTree = "<group>";
+		};
+		7279E0492478374E00EABEFE /* SwiftCarbonFootprintAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				7279E04A2478374E00EABEFE /* SwiftCarbonFootprintAppTests.swift */,
+				7279E04C2478374E00EABEFE /* Info.plist */,
+			);
+			path = SwiftCarbonFootprintAppTests;
+			sourceTree = "<group>";
+		};
+		AABDC46057A12C58CE69B6C0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F6F9507F31B23F86B6764EBA /* Pods_SwiftCarbonFootprintApp.framework */,
+				28982C537C46A0729B61407C /* Pods_SwiftCarbonFootprintAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7279E02F2478374B00EABEFE /* SwiftCarbonFootprintApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7279E04F2478374E00EABEFE /* Build configuration list for PBXNativeTarget "SwiftCarbonFootprintApp" */;
+			buildPhases = (
+				6FCF68446EA9F484EA8A39E2 /* [CP] Check Pods Manifest.lock */,
+				7279E02C2478374B00EABEFE /* Sources */,
+				7279E02D2478374B00EABEFE /* Frameworks */,
+				7279E02E2478374B00EABEFE /* Resources */,
+				7202C4F88FCA43253CF766CE /* [CP] Embed Pods Frameworks */,
+				45AD9C916875FE105E17B70C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftCarbonFootprintApp;
+			productName = SwiftCarbonFootprintApp;
+			productReference = 7279E0302478374B00EABEFE /* SwiftCarbonFootprintApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7279E0452478374E00EABEFE /* SwiftCarbonFootprintAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7279E0522478374E00EABEFE /* Build configuration list for PBXNativeTarget "SwiftCarbonFootprintAppTests" */;
+			buildPhases = (
+				E413A8ACDFA5E459D575052F /* [CP] Check Pods Manifest.lock */,
+				7279E0422478374E00EABEFE /* Sources */,
+				7279E0432478374E00EABEFE /* Frameworks */,
+				7279E0442478374E00EABEFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7279E0482478374E00EABEFE /* PBXTargetDependency */,
+			);
+			name = SwiftCarbonFootprintAppTests;
+			productName = SwiftCarbonFootprintAppTests;
+			productReference = 7279E0462478374E00EABEFE /* SwiftCarbonFootprintAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7279E0282478374B00EABEFE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = " Ben Lee";
+				TargetAttributes = {
+					7279E02F2478374B00EABEFE = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+					7279E0452478374E00EABEFE = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = 7279E02F2478374B00EABEFE;
+					};
+				};
+			};
+			buildConfigurationList = 7279E02B2478374B00EABEFE /* Build configuration list for PBXProject "SwiftCarbonFootprintApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7279E0272478374B00EABEFE;
+			productRefGroup = 7279E0312478374B00EABEFE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7279E02F2478374B00EABEFE /* SwiftCarbonFootprintApp */,
+				7279E0452478374E00EABEFE /* SwiftCarbonFootprintAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7279E02E2478374B00EABEFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7279E0402478374D00EABEFE /* LaunchScreen.storyboard in Resources */,
+				723923732508764C00D43CA8 /* GoogleService-Info.plist in Resources */,
+				7279E03D2478374D00EABEFE /* Assets.xcassets in Resources */,
+				7279E03B2478374B00EABEFE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7279E0442478374E00EABEFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		45AD9C916875FE105E17B70C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftCarbonFootprintApp/Pods-SwiftCarbonFootprintApp-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftCarbonFootprintApp/Pods-SwiftCarbonFootprintApp-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftCarbonFootprintApp/Pods-SwiftCarbonFootprintApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6FCF68446EA9F484EA8A39E2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwiftCarbonFootprintApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7202C4F88FCA43253CF766CE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftCarbonFootprintApp/Pods-SwiftCarbonFootprintApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftCarbonFootprintApp/Pods-SwiftCarbonFootprintApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftCarbonFootprintApp/Pods-SwiftCarbonFootprintApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E413A8ACDFA5E459D575052F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwiftCarbonFootprintAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7279E02C2478374B00EABEFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				723923772508764C00D43CA8 /* ColorScheme.swift in Sources */,
+				723923742508764C00D43CA8 /* Helpers.swift in Sources */,
+				7239237A2508764C00D43CA8 /* EmissionsOverview.swift in Sources */,
+				7279E058247AC29B00EABEFE /* HouseholdVehicles.swift in Sources */,
+				723923782508764C00D43CA8 /* UserSettings.swift in Sources */,
+				723923722508764C00D43CA8 /* welcome.swift in Sources */,
+				7279E0342478374B00EABEFE /* AppDelegate.swift in Sources */,
+				7279E0562479833900EABEFE /* Waste.swift in Sources */,
+				7239237B2508764C00D43CA8 /* HomeEnergy.swift in Sources */,
+				7279E0362478374B00EABEFE /* SceneDelegate.swift in Sources */,
+				7239237C2508764C00D43CA8 /* Model.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7279E0422478374E00EABEFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7279E04B2478374E00EABEFE /* SwiftCarbonFootprintAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7279E0482478374E00EABEFE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7279E02F2478374B00EABEFE /* SwiftCarbonFootprintApp */;
+			targetProxy = 7279E0472478374E00EABEFE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7279E0392478374B00EABEFE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7279E03A2478374B00EABEFE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7279E03E2478374D00EABEFE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7279E03F2478374D00EABEFE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7279E04D2478374E00EABEFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7279E04E2478374E00EABEFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7279E0502478374E00EABEFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA5F8FA7A64D044B1213882A /* Pods-SwiftCarbonFootprintApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SwiftCarbonFootprintApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = blee.SwiftCarbonFootprintApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7279E0512478374E00EABEFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53B6139EE77BCEEC8F8AB0E8 /* Pods-SwiftCarbonFootprintApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SwiftCarbonFootprintApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = blee.SwiftCarbonFootprintApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7279E0532478374E00EABEFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5BF1B00720DE2D39DE7B8A6 /* Pods-SwiftCarbonFootprintAppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SwiftCarbonFootprintAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = blee.SwiftCarbonFootprintAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftCarbonFootprintApp.app/SwiftCarbonFootprintApp";
+			};
+			name = Debug;
+		};
+		7279E0542478374E00EABEFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B5235055BBCB8F57782A5AF /* Pods-SwiftCarbonFootprintAppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SwiftCarbonFootprintAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = blee.SwiftCarbonFootprintAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftCarbonFootprintApp.app/SwiftCarbonFootprintApp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7279E02B2478374B00EABEFE /* Build configuration list for PBXProject "SwiftCarbonFootprintApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7279E04D2478374E00EABEFE /* Debug */,
+				7279E04E2478374E00EABEFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7279E04F2478374E00EABEFE /* Build configuration list for PBXNativeTarget "SwiftCarbonFootprintApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7279E0502478374E00EABEFE /* Debug */,
+				7279E0512478374E00EABEFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7279E0522478374E00EABEFE /* Build configuration list for PBXNativeTarget "SwiftCarbonFootprintAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7279E0532478374E00EABEFE /* Debug */,
+				7279E0542478374E00EABEFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		723923702508764C00D43CA8 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				723923712508764C00D43CA8 /* Model.xcdatamodel */,
+			);
+			currentVersion = 723923712508764C00D43CA8 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 7279E0282478374B00EABEFE /* Project object */;
+}
